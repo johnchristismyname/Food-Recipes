@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(72, 69, 69);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 65px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.yes {
+    color: #fff;
+    font-size: 32px;
+    margin-left: 56px;
+}
+
+.hillo {
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hello {
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    font-size: 48px;
+    text-shadow: 0 0 32px #000;
+    font-weight: 900;
+    font-family: cursive;
+
+}
+
+.hallo {
+    color: #fff;
+    position: absolute;
+    top: 175px;
+    font-size: 38px;
+    text-shadow: 0 0 32px #000;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.FoodContainer {
+    position: absolute;
+    height: 280px;
+    width: 800px;
+    border: 5px solid #000;
+    top: 300px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .08);
+}
+
+.ulam {
+    color: #fff;
+    border: 2px solid #000;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgba(1, 1, 1, .5);
+}
+
+.ulams {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.adobo {
+    background-image: url(../img/masipag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: none;
+}
+
+.frontPage {
+    background-image: url(../img/foods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.adobo img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    /* top: 200px; */
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.tutorial {
+    /* height: 550px;
+    width: 600px; */
+    height: 75%;
+    width: 90%;
+    border: 5px solid #fff;
+    position: absolute;
+    padding: 25px;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.others {
+    padding: 10px;
+    top: 20px;
+}
+
+.ambobo {
+    position: relative;
+    /* top: 50px;
+    right: 150px; */
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    margin: 0;
+    padding: 10px;
+    border: 5px solid #fff;
+    background-color: rgba(1, 1, 1, 0.8);
+}
+
+.pagod {
+    position: relative;
+    left: 10px;
+}
+
+p {
+    margin: 10px;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+}
+
+.opo {
+    font-size: 20px;
+}
+
+.menudo img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    /* top: 200px; */
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.menudo {
+    background-image: url(../img/masipag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: none;
+
+}
+
+.lechon img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    /* top: 200px; */
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.lechon {
+    background-image: url(../img/masipag.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: none;
+
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
